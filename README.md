@@ -1,8 +1,10 @@
-Metal Travel Pad
+
 
 ![Finished pad, with lights active](./img/IMG_1063.jpg)
 
 This project is a metal travel pad used for DDR (Dance Dance Revolution) or ITG (In the Groove). It features aluminum construction, four acrylic panels, force-sensitive-resistor sensors, a custom PCB for I/O, and configurable addressable LED strips. This pad was built using items purchased online and fabricated using simple hand tools. Total cost is hard to estimate, as I had a lot of tools and parts lying around from other projects, but with shipping and tax I estimate I probably spent about $250-$300.
+
+I'm not a good filmmaker but if you prefer to hear me ramble about this pad in video form you can check out [this YouTube video](https://youtu.be/jW0Vi1Cc8SE). 
 
 # Pad Description
 
@@ -149,6 +151,8 @@ In addition, I'd recommend the following tools. Several of these I bought for ot
 ### Electronic Components
 
 #### PCB Assembly
+
+You'll need a PCB or another circuit board to handle the microcontroller-FSR interface. A breadboard works as well, it just may not fit in the arrow cavity. Gerber, drill and assembly files can be found in the ./cam/ directory. I personally used [ALLPCB](https://www.allpcb.com/) for this one - they currently have a "free prototype" promo. I've also used [JLCPCB](jlcpcb.com) in the past - they ship fast and boards are good quality. If you want something domestic to the US and like purple, I've had colleagues recommend [Oshpark](oshpark.com).
 
 I like to hand-solder PCB components but if you like the stencil-solderpaste-reflowoven method, go for it!
 
