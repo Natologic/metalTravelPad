@@ -1,6 +1,6 @@
 Metal Travel Pad
 
-![Finished pad, with lights active](C:/Users/natol/Downloads/metalTravelPad-main/metalTravelPad-main/img/IMG_1063.jpg)
+![Finished pad, with lights active](./img/IMG_1063.jpg)
 
 This project is a metal travel pad used for DDR (Dance Dance Revolution) or ITG (In the Groove). It features aluminum construction, four acrylic panels, force-sensitive-resistor sensors, a custom PCB for I/O, and configurable addressable LED strips. This pad was built using items purchased online and fabricated using simple hand tools. Total cost is hard to estimate, as I had a lot of tools and parts lying around from other projects, but with shipping and tax I estimate I probably spent about $250-$300.
 
@@ -12,11 +12,11 @@ The metal travel pad comprises mechanical and electrical components, as well as 
 
 The pad frame consists of 1"x1" T-slot extruded aluminum arranged in a 17.5"x17.5" footprint. Interior rails form the mounting surface for the internal FSR brackets and the center panel, which is mounted on "low profile" 1"x0.5" extrusions. All components are retained with standard T-slot fasteners. Each panel is mounted via two hinges, which allow the panels to be easily flipped up for pad modding or cleaning.
 
-![Mechanical components](C:/Users/natol/Downloads/metalTravelPad-main/metalTravelPad-main/img/IMG_1024.jpg)
+![Mechanical components](./img/IMG_1024.jpg)
 
 The panels are 3/8" acrylic measuring 3" wide and 11" long. Enabling a flat upper surface, 1/4"-20 flathead screws retain each panel to its respective hinges. Low-profile lock washers secure the screws in place. 
 
-![Countersinks in acrylic panels](C:/Users/natol/Downloads/metalTravelPad-main/metalTravelPad-main/img/IMG_0884.jpg)
+![Countersinks in acrylic panels](./img/IMG_0884.jpg)
 
 The center panel is a standard DDR center panel and is retained using double-sided mounting tape. The extrusion also provides screws as an alternative mounting option. Slippery plastic such as UHMWPE may be substituted for this center panel, although such parts may be cheaper to source locally.
 
@@ -34,11 +34,11 @@ The PCB is a very simple two-layer board with a few key features:
 6. Two mounting holes
 7. A reset button
 
-![Custom PCB](C:/Users/natol/Downloads/metalTravelPad-main/metalTravelPad-main/img/IMG_1007.jpg)
+![Custom PCB](./img/IMG_1007.jpg)
 
 The lights are WS2812 addressable LED light strips. Each strip is daisy-chained off the last and requires no external circuitry besides what is present in the PCB. 
 
-![Lights in action](C:/Users/natol/Downloads/metalTravelPad-main/metalTravelPad-main/img/IMG_0988.jpg)
+![Lights in action](./img/IMG_0988.jpg)
 
 ## Software
 
@@ -130,17 +130,17 @@ In addition, I'd recommend the following tools. Several of these I bought for ot
 
 4. Install the front/back rails. I personally applied threadlocker after checking all the alignments but you can do it as you go.
 
-5. Prepare the interior top rails and the inside interior top rails. Since I used used flat-head screws to retain the top rails, I had to drill a 1/4"-20 clearance hole in the center and a screwhead clearance hole through the faces. Secure these in place to the previously-installed t-nuts. ![Top rail prep](C:/Users/natol/Downloads/metalTravelPad-main/metalTravelPad-main/img/IMG_0887.jpg)
+5. Prepare the interior top rails and the inside interior top rails. Since I used used flat-head screws to retain the top rails, I had to drill a 1/4"-20 clearance hole in the center and a screwhead clearance hole through the faces. Secure these in place to the previously-installed t-nuts. ![Top rail prep](./img/IMG_0887.jpg)
 
-6. Drill and countersink clearance holes in the acrylic panels. I'd recommend using your hinges as a guide.![Panel prep](C:/Users/natol/Downloads/metalTravelPad-main/metalTravelPad-main/img/IMG_0884.jpg)
+6. Drill and countersink clearance holes in the acrylic panels. I'd recommend using your hinges as a guide.![Panel prep](./img/IMG_0884.jpg)
 
-7. The stock holes on the hinges are slightly too small for a 1/4"-20 clearance, so drill those out using a 1/4" clearance bit. I'd also recommend removing the burrs at this step.![Drilled hinge (C:/Users/natol/Downloads/metalTravelPad-main/metalTravelPad-main/img/IMG_0872.jpg) vs stock hinge (right)](./img/IMG_0872.jpg)
+7. The stock holes on the hinges are slightly too small for a 1/4"-20 clearance, so drill those out using a 1/4" clearance bit. I'd also recommend removing the burrs at this step.![Drilled hinge (./img/IMG_0872.jpg) vs stock hinge (right)](./img/IMG_0872.jpg)
 
-8. Install the hinges to the panels and the assemblies to the outer surface of the side and front/back rails.![Panel prep](C:/Users/natol/Downloads/metalTravelPad-main/metalTravelPad-main/img/IMG_0891.jpg)
+8. Install the hinges to the panels and the assemblies to the outer surface of the side and front/back rails.![Panel prep](./img/IMG_0891.jpg)
 
-9. Prep and secure the base plate (if desired) ![Panel prep](C:/Users/natol/Downloads/metalTravelPad-main/metalTravelPad-main/img/IMG_1053.jpg)
+9. Prep and secure the base plate (if desired) ![Panel prep](./img/IMG_1053.jpg)
 
-10. I'd do this last, but also prepare and secure the center panel. You can screw into t-nuts located in the top rails, or use double-sided tape like me. ![Panel prep](C:/Users/natol/Downloads/metalTravelPad-main/metalTravelPad-main/img/IMG_1067.jpg)
+10. I'd do this last, but also prepare and secure the center panel. You can screw into t-nuts located in the top rails, or use double-sided tape like me. ![Panel prep](./img/IMG_1067.jpg)
 
     
 
@@ -152,23 +152,23 @@ In addition, I'd recommend the following tools. Several of these I bought for ot
 
 I like to hand-solder PCB components but if you like the stencil-solderpaste-reflowoven method, go for it!
 
-1. Tape the board down to a bench. Using flux, solder the SMD current-limiting LED resistors. I used 220 ohm.![SMD resistors in](C:/Users/natol/Downloads/metalTravelPad-main/metalTravelPad-main/img/IMG_0994.jpg)
-2. Solder the SMD LEDs (I used blue). Solder the LED signal resistor. I used 470 ohm. ![SMD LEDs lights signal resistor in](C:/Users/natol/Downloads/metalTravelPad-main/metalTravelPad-main/img/IMG_0997.jpg)
-3. Solder the TH components (FSR header, lights header, capacitor, reset switch, barrel jack) ![TH components in](C:/Users/natol/Downloads/metalTravelPad-main/metalTravelPad-main/img/IMG_0999.jpg)
-4. Solder the Pro Micro sockets and the swappable PCB terminals. I do these last since they are plastic and can be melted by the reflow station.![Plastic components in](C:/Users/natol/Downloads/metalTravelPad-main/metalTravelPad-main/img/IMG_1002.jpg)
-5. Install the microcontroller and fixed current-divider resistors. ![Finished board](C:/Users/natol/Downloads/metalTravelPad-main/metalTravelPad-main/img/IMG_1006.jpg)
+1. Tape the board down to a bench. Using flux, solder the SMD current-limiting LED resistors. I used 220 ohm.![SMD resistors in](./img/IMG_0994.jpg)
+2. Solder the SMD LEDs (I used blue). Solder the LED signal resistor. I used 470 ohm. ![SMD LEDs lights signal resistor in](./img/IMG_0997.jpg)
+3. Solder the TH components (FSR header, lights header, capacitor, reset switch, barrel jack) ![TH components in](./img/IMG_0999.jpg)
+4. Solder the Pro Micro sockets and the swappable PCB terminals. I do these last since they are plastic and can be melted by the reflow station.![Plastic components in](./img/IMG_1002.jpg)
+5. Install the microcontroller and fixed current-divider resistors. ![Finished board](./img/IMG_1006.jpg)
 
 #### Lights Preparation
 
 1. Cut the LED strips as desired. I used 7 LEDs for left and right, 7 LEDs for up, and 8 LEDs for down.
-2. Solder 3-wide male headers to the LED strips. ![90-degree header soldered](C:/Users/natol/Downloads/metalTravelPad-main/metalTravelPad-main/img/IMG_0916.jpg)
-3. Prepare your daisy-chain wires. **Please ensure that you don't cross-over the power and data pins! I've heard WS2812B has reverse polarity protection but I can confirm crossing-over the data and power pin will kill at least one LED ;)** ![LED daisy-chain wires](C:/Users/natol/Downloads/metalTravelPad-main/metalTravelPad-main/img/IMG_0984.jpg)
-4. I'd highly recommend testing out the LEDs on a bench before installing them to confirm the integrity of your joints and crimps. ![Bench test of LED strips](C:/Users/natol/Downloads/metalTravelPad-main/metalTravelPad-main/img/IMG_0917.jpg)
+2. Solder 3-wide male headers to the LED strips. ![90-degree header soldered](./img/IMG_0916.jpg)
+3. Prepare your daisy-chain wires. **Please ensure that you don't cross-over the power and data pins! I've heard WS2812B has reverse polarity protection but I can confirm crossing-over the data and power pin will kill at least one LED ;)** ![LED daisy-chain wires](./img/IMG_0984.jpg)
+4. I'd highly recommend testing out the LEDs on a bench before installing them to confirm the integrity of your joints and crimps. ![Bench test of LED strips](./img/IMG_0917.jpg)
 
 #### Final Assembly
 
-1. Secure the PCB to the baseplate or a rail if desired. Prepare and plug the FSR cables into the male headers, as well as the first leg in the lights daisy-chain. I installed my PCB on the far-left hand up arrow cavity. ![PCB in place.](C:/Users/natol/Downloads/metalTravelPad-main/metalTravelPad-main/img/IMG_1065.jpg)
-2. Attach the FSRs to the brackets using double-sided tape. Attach the lights to the inside of the top/bottom and side rails using double-sided tape. Mod the FSRs as desired using double-sided tape. I also used a few zip tie mounts to handle the wires. ![Cables managed](C:/Users/natol/Downloads/metalTravelPad-main/metalTravelPad-main/img/IMG_1057.jpg)
+1. Secure the PCB to the baseplate or a rail if desired. Prepare and plug the FSR cables into the male headers, as well as the first leg in the lights daisy-chain. I installed my PCB on the far-left hand up arrow cavity. ![PCB in place.](./img/IMG_1065.jpg)
+2. Attach the FSRs to the brackets using double-sided tape. Attach the lights to the inside of the top/bottom and side rails using double-sided tape. Mod the FSRs as desired using double-sided tape. I also used a few zip tie mounts to handle the wires. ![Cables managed](./img/IMG_1057.jpg)
 
 
 
